@@ -21,13 +21,13 @@ const App = () => {
 
   const handleAddProject = () => {
     if (editIndex !== null) {
-      // Editing an existing project
+    
       const updatedProjects = [...projects];
       updatedProjects[editIndex] = newProject;
       setProjects(updatedProjects);
       setEditIndex(null);
     } else {
-      // Adding a new project
+  
       if (newProject.date && newProject.details && newProject.reference) {
         setProjects([...projects, newProject]);
       }
@@ -115,6 +115,7 @@ const App = () => {
               >
                 <option value="Pending">Pending</option>
                 <option value="Complete">Complete</option>
+                <option value="Inreview">In Review Stage</option>
               </Select>
               <Button
                 type="button"
