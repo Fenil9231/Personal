@@ -61,7 +61,7 @@ This project is open-source and available under the MIT License.
 ## Contact
 If you have any questions or suggestions, feel free to contact the project maintainer:
 
-GitHub: https://github.com/Fenil9231
-Email: fenil.kothiya88@gmail.com
+- GitHub: https://github.com/Fenil9231
+- Email: fenil.kothiya88@gmail.com
 
 
